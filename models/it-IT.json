@@ -1,0 +1,254 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "terranova",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetPromotionsIntent",
+          "slots": [
+            {
+              "name": "category",
+              "type": "categories",
+              "samples": [
+                "dimmi dei {category}",
+                "vorrei sapere di {category}",
+                "mi interessano i {category}",
+                "{category}"
+              ]
+            }
+          ],
+          "samples": [
+            "dammi gli sconti",
+            "dammi i saldi",
+            "dammi le offerte",
+            "dammi le promozioni",
+            "dimmi gli sconti",
+            "dimmi i saldi",
+            "dimmi le offerte",
+            "dimmi le promozioni",
+            "gli sconti",
+            "i saldi",
+            "le offerte",
+            "le promozioni",
+            "vorrei gli sconti",
+            "vorrei i saldi",
+            "vorrei le offerte",
+            "vorrei le promozioni",
+            "vorrei sapere gli sconti",
+            "vorrei sapere i saldi",
+            "vorrei sapere le offerte",
+            "vorrei sapere le promozioni",
+            "promozioni su {category}",
+            "le promozioni di {category}",
+            "quli sono le promozioni attive",
+            "dimmi quali promozioni hai",
+            "promozioni",
+            "le promozioni",
+            "dammi gli sconti dei {category}",
+            "dammi gli sconti di {category}",
+            "dammi gli sconti su {category}",
+            "dammi gli sconti {category}",
+            "dammi i saldi dei {category}",
+            "dammi i saldi di {category}",
+            "dammi i saldi su {category}",
+            "dammi i saldi {category}",
+            "dammi le offerte dei {category}",
+            "dammi le offerte di {category}",
+            "dammi le offerte su {category}",
+            "dammi le offerte {category}",
+            "dammi le promozioni dei {category}",
+            "dammi le promozioni di {category}",
+            "dammi le promozioni su {category}",
+            "dammi le promozioni {category}",
+            "dimmi gli sconti dei {category}",
+            "dimmi gli sconti di {category}",
+            "dimmi gli sconti su {category}",
+            "dimmi gli sconti {category}",
+            "dimmi i saldi dei {category}",
+            "dimmi i saldi di {category}",
+            "dimmi i saldi su {category}",
+            "dimmi i saldi {category}",
+            "dimmi le offerte dei {category}",
+            "dimmi le offerte di {category}",
+            "dimmi le offerte su {category}",
+            "dimmi le offerte {category}",
+            "dimmi le promozioni dei {category}",
+            "dimmi le promozioni di {category}",
+            "dimmi le promozioni su {category}",
+            "dimmi le promozioni {category}",
+            "gli sconti dei {category}",
+            "gli sconti di {category}",
+            "gli sconti su {category}",
+            "gli sconti {category}",
+            "i saldi dei {category}",
+            "i saldi di {category}",
+            "i saldi su {category}",
+            "i saldi {category}",
+            "le offerte dei {category}",
+            "le offerte di {category}",
+            "le offerte su {category}",
+            "le offerte {category}",
+            "le promozioni dei {category}",
+            "le promozioni di {category}",
+            "le promozioni su {category}",
+            "le promozioni {category}",
+            "vorrei gli sconti dei {category}",
+            "vorrei gli sconti di {category}",
+            "vorrei gli sconti su {category}",
+            "vorrei gli sconti {category}",
+            "vorrei i saldi dei {category}",
+            "vorrei i saldi di {category}",
+            "vorrei i saldi su {category}",
+            "vorrei i saldi {category}",
+            "vorrei le offerte dei {category}",
+            "vorrei le offerte di {category}",
+            "vorrei le offerte su {category}",
+            "vorrei le offerte {category}",
+            "vorrei le promozioni dei {category}",
+            "vorrei le promozioni di {category}",
+            "vorrei le promozioni su {category}",
+            "vorrei le promozioni {category}",
+            "vorrei sapere gli sconti dei {category}",
+            "vorrei sapere gli sconti di {category}",
+            "vorrei sapere gli sconti su {category}",
+            "vorrei sapere gli sconti {category}",
+            "vorrei sapere i saldi dei {category}",
+            "vorrei sapere i saldi di {category}",
+            "vorrei sapere i saldi su {category}",
+            "vorrei sapere i saldi {category}",
+            "vorrei sapere le offerte dei {category}",
+            "vorrei sapere le offerte di {category}",
+            "vorrei sapere le offerte su {category}",
+            "vorrei sapere le offerte {category}",
+            "vorrei sapere le promozioni dei {category}",
+            "vorrei sapere le promozioni di {category}",
+            "vorrei sapere le promozioni su {category}",
+            "vorrei sapere le promozioni {category}"
+          ]
+        },
+        {
+          "name": "GetMyPromotionsIntent",
+          "slots": [],
+          "samples": [
+            "dimmi le mie offerte",
+            "vorrei sapere le offerte dedicate a me",
+            "hai delle promozioni per me",
+            "cosa mi consigli oggi"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "pantaloni",
+                "synonyms": [
+                  "jeans",
+                  "braghe"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "giacche",
+                "synonyms": [
+                  "piumono",
+                  "piumino",
+                  "piumini",
+                  "giubotti"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "maglioni",
+                "synonyms": [
+                  "girocollo",
+                  "maglia",
+                  "maglie"
+                ]
+              }
+            }
+          ],
+          "name": "categories"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "GetPromotionsIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "category",
+              "type": "categories",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1263537973066.1467981807340"
+              },
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.1263537973066.1467981807340.1222616397214"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1263537973066.1467981807340",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Che categoria vorresti?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Quale categoria ti interessa?"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1263537973066.1467981807340.1222616397214",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Mi dispiace, non ci sono offerte offerte per questa categoria, puoi dirmene un'altra?"
+          }
+        ]
+      }
+    ]
+  }
+}

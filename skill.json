@@ -1,0 +1,20 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/eu-west-1_terranova"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "name": "Terranova Shop"
+        }
+      }
+    }
+  }
+}
